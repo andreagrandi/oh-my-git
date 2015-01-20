@@ -131,7 +131,7 @@ if [ -n "${BASH_VERSION}" ]; then
                 venv="(pyenv:${VIRTUAL_ENV##*/})"
             else
                 # In case you don't have one activated
-                venv='abc'
+                venv=''
             fi
 
             prompt="${prompt} ${white_on_red} ${black_on_red}"
